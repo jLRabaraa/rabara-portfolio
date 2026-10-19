@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Kotlin-Final</string>
+    <string name="introTitle"><font color="#F2AA00">Your One Stop</font> <font color="#08462D">Destination \nfor FEU Merchandise</font></string>
+    <string name="introSubtitle"> <font color="#3A3B3C">\n Enjoy fast &amp; easy shopping! </font></string>
+    <string name="strike_text">1. <strike>StrikeThrough</strike> Using strike</string>
+</resources>

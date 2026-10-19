@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background: url('assets/banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f5ebe0;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.worker-list .worker { 
+    cursor: pointer; 
+    transition: background-color 0.2s ease; 
+    margin-bottom: 10px; 
+}
+
+.worker-list .worker:hover, .worker-list .worker.selected { 
+    background-color: #3d2917; 
+    color: #ffffff; 
+}
+
+img {
+    display: block;
+    width: 175px; 
+    height: 175px; 
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+    color: #6d4c41; /* Smooth transition for hover effect */
+}
+
+.btn-primary {
+    background-color: #6d4c41;
+    border: none;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #5a392f;
+    color: #6d4c41; /* Darker shade of brown */
+}
+
+.btn-warning {
+    background-color: #ffca28;
+    color: #3e2723;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e6b222; /* Darker shade of yellow-brown */
+}
+
+.btn-danger {
+    background-color: #d32f2f;
+}
+
+.btn-danger:hover {
+    background-color: #b52727; /* Darker shade of red-brown */
+}
+
+/* Menu Section */
+.menu-list h4 {
+    color: #795548;
+}
+
+.form-select {
+    border-radius: 15px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}
+
+.table {
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.table thead {
+    background-color: #3e2723;
+    color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
